@@ -4,8 +4,8 @@ import numpy as np
 
 
 st.title('Attaching Geopoints to your route!')
-st.write("It works only with Ada County only. It will attach  longitude and	latitude as separate columns and create new csv file")
-st.write ("It doesn't work with Canyon county because the database with addresses attached on backend has only Ada county addresess ")
+st.write("It works only with Ada County. It will attach longitude and latitude as separate columns and create a new CSV file.")
+st.write ("It doesn't work with Canyon county because the database with addresses attached on backend has only Ada county addresses. ")
 st.header("Here are the simple rules to use this scritp:")
 st.subheader("First, your csv file should have  these headers or lables in your route.csv file: ")
 st.code("pieces	lbs	service	delname	delstreetno	delstreet	delsuite	delcity	delzip	delroute")
